@@ -1,0 +1,366 @@
+/* desktop */
+
+body {
+    background-color: rgb(255, 251, 251);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* grid index */
+
+@media (min-width: 577px) {
+
+
+.indexTitulo{
+    font-size: 25px;
+    font-family: 'Bangers';
+    margin-left: 10px;
+    margin-right: 20px;
+    color: rgb(136, 215, 136);
+}
+
+.indexTitulo a{
+    text-decoration: none;
+    color: rgb(136, 215, 136);
+}
+.titulo1 {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.miTienda {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-family: 'Bangers', cursive;
+    padding: 10px;
+    animation-name: mianimacion;
+    animation-duration: 10s;
+    animation-delay: 0.5s;
+
+
+
+}
+@keyframes mianimacion {
+    0%   {font-size: 10px;}
+    25%  {font-size: 20px;}
+    50%  {
+        font-size: 50px;
+        background-color: rgb(136, 215, 136);
+        }
+    75%  {font-size: 20px;}
+    100% {font-size: 10px;}
+  }
+
+.carousel-inner img {
+    max-height: 400px;
+
+} 
+
+#carouselExampleIndicators {
+    width: 800px;
+    height: 500PX;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.carrusel {
+    display: flex;
+    justify-content: center;
+}
+
+.footer { 
+      background: linear-gradient(to bottom right, black, white);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 20px !important;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      
+
+
+}
+  
+.img {  
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    font-weight: bolder;
+    list-style-type: none;
+
+
+}
+.iconoTienda {
+    width: 70px;
+}
+
+
+}
+
+.nav-item:hover {
+    text-decoration-line: underline;
+}
+
+  
+.producto ul {  
+        background-color: rgb(220,233,190);
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+}
+.producto a{
+    text-decoration: none;
+    color: rgb(153,23,60);
+    font-weight: bolder;
+}
+.producto li{
+    transition: all .5s;
+}
+.producto li:hover{
+    font-size: 30px;
+}
+  
+
+
+.imgProd {
+    width: 150px;
+}
+
+
+.lista {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+.card {
+    background-color: rgb(220,233,190);
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+    align-items: center;
+    transition: width 0.5s;
+}
+
+.card:hover {
+    width: 300px;
+    background-color: gray;
+}
+
+/* page productos */
+
+h3 {
+    font-size: 25px;
+    margin: 2px;
+    color: rgb(153,23,60);
+
+}
+.precio {
+    margin: 2px;
+    font-size: 15px;
+}
+.redesSociales a img{
+    width: 30px;
+}
+
+
+.productos{
+    list-style-type: none;
+}
+
+/* page oferta */
+
+.ofertaTitulo {
+    display: flex;
+    justify-content: center;
+}
+
+.menuOferta{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.menuOferta a{
+    text-decoration: none;
+    color:rgb(153,23,60);
+    font-weight: bolder;
+
+}
+
+.oferta div{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(220,233,190);
+    width: 400px;
+    color: white;
+    position: relative;
+}
+.oferta img{
+    width: 250px;
+    padding: 10px;
+}
+.descuento{
+    position: absolute;
+    top: 0;
+    left: 2px;
+    background-color: red;
+    color: yellow;
+    padding: 2px;
+    font-weight: bolder;
+}
+
+/* page contacto */
+.contacto {
+    display: flex;
+    justify-content: center;
+}
+.imgContacto{
+width: 600px;
+}
+
+#cuestionario {
+    margin: 10px;
+    width: 400px;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item {
+    margin-top: 10px;
+}
+.item:last-child{
+    margin-bottom: 10px;
+}
+textarea {
+    width: 200px !important;
+    transition: width 0.5s !important;
+
+}
+textarea:focus {
+    width: 400px !important;
+
+}
+
+/* page empresa */
+
+.tituloEmpresa {
+    color: rgb(46,38,51);
+    font-weight: 800;
+}
+
+
+.imagenEmpresa {
+    height: 400px; 
+    border: solid 2px black;
+}
+
+.textoEmpresa {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.5;
+} 
+
+
+
+/* movile */
+
+@media (max-width: 575.98px) { 
+
+    .titulo {
+        display: flex;
+        justify-content: center;
+        color: rgb(239,255,205);
+        margin-left: 10px;
+    }
+      
+    .footer { 
+          
+          background-color: rgb(85,81,82);
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+    }
+      
+    .img { 
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+/* carrusel */
+    #carouselExampleIndicators {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .iconoTienda {
+        width: 70px;
+        margin-bottom: 10px;
+        }
+    
+
+      
+    .producto ul {  
+            background-color: rgb(220,233,190);
+            list-style-type: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    }
+    .producto a{
+        text-decoration: none;
+        color: rgb(153,23,60);
+        font-weight: bolder;
+    }
+
+
+
+    .footer img {
+        width: 30px ;
+    }
+    
+    .imgProd {
+        width: 150px;
+    }
+    .lista {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-items: flex-end;
+    }
+    .card {
+        background-color: rgb(220,233,190);
+        padding: 10px;
+        margin: 10px;
+        width: 250px;
+        text-align: center;
+    }
+    /* page contacto */
+    .imgContacto{
+        margin: 10px;
+        width: 100%;    
+    }
+    .item {
+        margin-top: 10px;
+    }
+    .item:last-child{
+        margin-bottom: 10px;
+    }
+    
+}
