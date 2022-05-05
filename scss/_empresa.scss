@@ -8,20 +8,19 @@
 
 .imagenEmpresa {
     @include size(600px, 400px);
-    border: solid 2px black;
 }
 
 .historia{
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
     align-items: center;
-    
+    margin: 40px;
 }
 
 .textoEmpresa {
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: justify;
-    margin: 40px;
+    margin: 20px;
 }
 
 
