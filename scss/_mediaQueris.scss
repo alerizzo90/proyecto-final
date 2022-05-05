@@ -1,0 +1,69 @@
+/*media queris*/
+
+@media (max-width: 577px){
+    .iconoTienda {
+        width: 70px;
+        margin-bottom: 10px;
+    }
+
+    .historia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .imagenEmpresa {
+            max-width: 450px;
+            max-height: 300px;
+            border: solid 2px black;
+    }
+    
+    .producto{
+        list-style-type: none;
+        ul {
+            background-color: rgb(220,233,190);
+            list-style-type: none;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            li {
+                transition: all .5s;
+                &:hover{
+                    font-size: 30px;
+                }
+                a {
+                    text-decoration: none;
+                    color: $colorbordo;
+                    font-weight: bolder;
+                }
+
+            }
+        }
+    }
+    .oferta {
+        list-style-type: none;
+        ul {
+            background-color: rgb(220,233,190);
+            list-style-type: none;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            li {
+                transition: all .5s;
+                &:hover{
+                    font-size: 30px;
+                }
+                a {
+                    text-decoration: none;
+                    color: $colorbordo;
+                    font-weight: bolder;
+                }
+
+            }
+        }
+    }
+
+}
+
+    
+

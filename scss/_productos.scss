@@ -1,0 +1,72 @@
+/*page productos*/
+h3 {
+    font-size: 30px;
+    margin: 10px;
+    color: $colorbordo;
+    font-family: $fuentetitulo;
+}
+
+.producto{
+        list-style-type: none;
+        ul {
+            background-color: rgb(220,233,190);
+            list-style-type: none;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            li {
+                transition: all .5s;
+                &:hover{
+                    font-size: 30px;
+                }
+                a {
+                    text-decoration: none;
+                    color: $colorbordo;
+                    font-weight: bolder;
+                }
+
+            }
+        }
+}
+
+.lista {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        .card {
+                background-color: $fondocard;
+                padding: 10px;
+                margin: 10px;
+                width: 250px;
+                text-align: center;
+                align-items: center;
+                transition: width 0.5s;
+                &:hover {
+                        width: 300px;
+                        background-color: gray;
+                }
+                .imgProd {
+                    width: 150px;
+                }
+                .precio {
+                    margin: 2px;
+                    font-size: 15px;
+                }
+                button {
+                        background-color: black;
+                        color: white;
+                        font-size: 20px;
+                        border: none;
+                }
+                      
+                button:hover {
+                        background-color: white;
+                        color: black;
+                        border: 2px solid black;
+                        font-weight: bolder;
+                }
+        }
+
+}
+
