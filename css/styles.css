@@ -3,13 +3,6 @@
   .iconoTienda {
     width: 70px;
     margin-bottom: 10px; }
-  .imagenEmpresa {
-    max-width: 450px;
-    max-height: 250px;
-    margin: 10px; }
-  #contacto {
-    width: 450px;
-    margin: 10px; }
   .historia {
     display: flex;
     flex-direction: column !important;
@@ -191,7 +184,8 @@ header .nav-item:hover {
     display: flex;
     align-items: center; }
     .carrusel #carouselExampleIndicators .carousel-inner img {
-      max-height: 400px; }
+      width: 300px;
+      height: 350px; }
 
 /* page empresa */
 .tituloEmpresa {
@@ -199,8 +193,8 @@ header .nav-item:hover {
   font-weight: 800; }
 
 .imagenEmpresa {
-  width: 600px;
-  height: 400px; }
+  width: 100%;
+  height: auto; }
 
 .historia {
   display: flex;
@@ -218,12 +212,17 @@ header .nav-item:hover {
   display: flex;
   justify-content: center; }
 
+.contac {
+  display: flex;
+  justify-content: center; }
+  .contac .imgContacto {
+    width: 75%;
+    height: auto; }
+
 .formulario {
   display: flex;
   flex-direction: column;
   align-items: center; }
-  .formulario .imgContacto {
-    width: 600px; }
   .formulario #cuestionario {
     margin: 10px;
     width: 400px; }

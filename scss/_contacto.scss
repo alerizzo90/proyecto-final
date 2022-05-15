@@ -4,16 +4,20 @@
     display: flex;
     justify-content: center;
 }
-
-
+.contac {
+    display: flex;
+    justify-content: center;
+    .imgContacto{
+        width: 75%;
+        height: auto;
+    }
+}
 
 .formulario {
     display: flex;
     flex-direction: column;
     align-items: center;
-    .imgContacto{
-        width: 600px;
-    }
+
     #cuestionario {
         margin: 10px;
         width: 400px;

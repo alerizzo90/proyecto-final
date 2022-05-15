@@ -7,7 +7,7 @@
 }
 
 .imagenEmpresa {
-    @include size(600px, 400px);
+    @include size(100%, auto);
 }
 
 .historia{
@@ -21,6 +21,7 @@
     font-size: 1rem;
     text-align: justify;
     margin: 20px;
+
 }
 
 
