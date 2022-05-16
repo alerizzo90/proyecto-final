@@ -60,6 +60,13 @@
             }
         }
     }
+    .lista {
+        display: flex;
+        justify-content: center !important;
+        flex-wrap: wrap;
+        align-items: flex-end;
+    }
+    
 
 }
 

@@ -4,6 +4,10 @@ h3 {
     margin: 10px;
     color: $colorbordo;
     font-family: $fuentetitulo;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
 
 .producto{
