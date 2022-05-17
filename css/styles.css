@@ -68,6 +68,7 @@ h3 {
   list-style-type: none; }
   .producto ul {
     background-color: #dce9be;
+    padding: 30px;
     list-style-type: none;
     display: flex;
     justify-content: space-around;
