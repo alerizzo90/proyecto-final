@@ -241,20 +241,21 @@ header .nav-item:hover {
 /* page contacto */
 .contacto {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  margin: 20px; }
 
 .contac {
   display: flex;
   justify-content: center; }
   .contac .imgContacto {
-    width: 75%;
+    width: 80%;
     height: auto; }
 
 .formulario {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
   height: 600px;
   width: auto; }
   .formulario #cuestionario {
