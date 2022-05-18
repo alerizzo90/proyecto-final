@@ -3,11 +3,12 @@
 .contacto {
     display: flex;
     justify-content: center;
+
 }
 .contac {
     display: flex;
     justify-content: center;
-    .imgContacto{
+    .imgContacto {
         width: 75%;
         height: auto;
     }
@@ -17,10 +18,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 100px;
+    height: 600px;
+    width: auto;
 
     #cuestionario {
         margin: 10px;
-        width: 400px;
+        height: 300px;
+        width: auto;
         .item {
             margin-top: 10px;
             &:last-child{
@@ -37,6 +42,8 @@
         }
     }
 }
+
+
 
 
 

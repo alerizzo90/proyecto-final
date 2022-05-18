@@ -1,27 +1,44 @@
 
 /* page empresa */
 
+
 .tituloEmpresa {
     color: rgb(46,38,51);
     font-weight: 800;
 }
 
-.imagenEmpresa {
-    @include size(100%, auto);
-}
+
 
 .historia{
     display: flex;
     flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: center;
     align-items: center;
-    margin: 40px;
+    margin-bottom: 150px;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    .imagen {
+        display: flex;
+        justify-content: center;
+        width: 500px; 
+        margin: 20px;
+        .imagenEmpresa {
+            @include size(100%, auto);   
+        }
+    }
+    .textoEmpresa {
+        font-size: 1.2rem;
+        text-align: justify;
+        width: 500px;
+        margin: 20px;
+
+        
+    }
+
 }
 
-.textoEmpresa {
-    font-size: 1rem;
-    text-align: justify;
-    margin: 20px;
 
-}
+
 
 

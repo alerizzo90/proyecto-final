@@ -3,11 +3,6 @@
   .iconoTienda {
     width: 70px;
     margin-bottom: 10px; }
-  .historia {
-    display: flex;
-    flex-direction: column !important;
-    align-items: center;
-    margin: 40px; }
   .producto {
     list-style-type: none; }
     .producto ul {
@@ -197,25 +192,51 @@ header .nav-item:hover {
       width: 300px;
       height: 350px; }
 
+.info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  margin-bottom: 50px; }
+  .info div {
+    text-align: center; }
+    .info div .infoPrincipal {
+      font-size: 1.5rem;
+      font-weight: 800;
+      margin-bottom: 0px; }
+    .info div .infoSecundaria {
+      font-size: 1rem;
+      color: gray;
+      margin-top: 2px; }
+
 /* page empresa */
 .tituloEmpresa {
   color: #2e2633;
   font-weight: 800; }
 
-.imagenEmpresa {
-  width: 100%;
-  height: auto; }
-
 .historia {
   display: flex;
   flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-content: center;
   align-items: center;
-  margin: 40px; }
-
-.textoEmpresa {
-  font-size: 1rem;
-  text-align: justify;
-  margin: 20px; }
+  margin-bottom: 150px;
+  margin-top: 50px;
+  justify-content: space-evenly; }
+  .historia .imagen {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin: 20px; }
+    .historia .imagen .imagenEmpresa {
+      width: 100%;
+      height: auto; }
+  .historia .textoEmpresa {
+    font-size: 1.2rem;
+    text-align: justify;
+    width: 500px;
+    margin: 20px; }
 
 /* page contacto */
 .contacto {
@@ -232,10 +253,14 @@ header .nav-item:hover {
 .formulario {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  margin-bottom: 100px;
+  height: 600px;
+  width: auto; }
   .formulario #cuestionario {
     margin: 10px;
-    width: 400px; }
+    height: 300px;
+    width: auto; }
     .formulario #cuestionario .item {
       margin-top: 10px; }
       .formulario #cuestionario .item:last-child {
