@@ -180,7 +180,8 @@ header .nav-item:hover {
 
 .carrusel {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  margin: 20px; }
   .carrusel #carouselExampleIndicators {
     width: 800px;
     height: 500px;
@@ -189,8 +190,8 @@ header .nav-item:hover {
     display: flex;
     align-items: center; }
     .carrusel #carouselExampleIndicators .carousel-inner img {
-      width: 300px;
-      height: 350px; }
+      width: auto;
+      height: 400px; }
 
 .info {
   display: flex;
